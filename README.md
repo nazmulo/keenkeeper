@@ -1,16 +1,69 @@
-# React + Vite
+🚀 KeenKeeper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+KeenKeeper is a beautifully designed React web application that helps you stay connected with the people who matter most. It tracks your communication habits and reminds you when it's time to reach out again.
 
-Currently, two official plugins are available:
+🌟 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+In today’s busy world, it’s easy to lose touch with friends. KeenKeeper solves this by giving you a simple dashboard to:
 
-## React Compiler
+Track when you last contacted someone
+Set relationship goals
+Log interactions instantly
+Visualize your communication patterns
+🔥 Core Features
+🏠 Home Dashboard
+Clean hero section with quick overview
+Summary cards showing friendship insights
+Grid-based friend cards (responsive layout)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+👫 Friend Management
+Detailed friend profiles
+Status indicators:
+🔴 Overdue
+🟡 Almost Due
+🟢 On Track
+Tags for categorization (work, college, close friends, etc.)
+⚡ Quick Check-In System
 
-## Expanding the ESLint configuration
+Instantly log:
+📞 Calls
+💬 Texts
+📹 Video chats
+Automatic timeline updates
+Real-time toast notifications
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📜 Timeline Tracking
+Chronological interaction history
+Each entry includes:
+Date
+Interaction type
+Friend name
+🔍 Filter by interaction type (Call/Text/Video)
+
+📊 Analytics Dashboard
+Pie chart visualization using Recharts
+Understand your communication habits at a glance
+
+🧰 Tech Stack
+Technology-Purpose
+React.js-UI Development
+React Router-Page Navigation
+Tailwind CSS-Styling & Responsiveness
+Recharts-Data Visualization
+React Icons-UI Icons
+React Toastify-Notifications
+
+📱 Responsiveness
+
+KeenKeeper is fully optimized for:
+📱 Mobile devices
+📲 Tablets
+💻 Desktop screens
+
+⚠️ Additional Features
+🔄 Smooth routing with no reload errors
+⏳ Loading spinner while fetching data
+🚫 Custom 404 page for invalid routes
+🔔 Interactive toast alerts
+
+live link: https://keen-keeper-1.netlify.app/
